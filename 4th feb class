@@ -1,0 +1,24 @@
+Question1:
+radius=float(input("Enter the radius of the circle: "))
+area=3.14*radius*radius
+print("Area of the circle is: ",area)
+Question2:
+def findmax(num1,num2):
+    if(num1>num2):
+        print("Num1 is greater")
+    elif(num1<num2):
+        print("Num2 is greater")
+    else:
+        print("Both numbers are equal")
+    return(num1,num2)
+a,b=input("Enter the numbers: ").split()
+findmax(a,b)
+Question3:
+a=int(input("Enter the number"))
+num=[1,2,3,4,5,6,7,8]
+for i in num:
+    if(i==a):
+        print("Element found")
+        break;
+    else:
+        print("Element not found")
