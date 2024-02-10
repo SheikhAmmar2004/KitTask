@@ -1,0 +1,16 @@
+import pandas as pd
+import numpy as np
+df=pd.Dataset({
+    'Make':['Toyota','Honda','Hyundai','Suzuki','Changan'],
+    'Name':['Grande','Civic','Elantra','Swift','Alsvin'],
+    'Model':[2016,2017,2018,2019,2020],
+    'Size':[5,6,5,4,5],
+    'Color':['White','Mahroon','Silver','Red','Black']
+})
+df
+
+
+
+data=pd.read_csv('canada_per_capita_income.csv')
+
+data.isnull()
